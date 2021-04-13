@@ -1,0 +1,27 @@
+A game where you manage a company that hires adventurers to do quests
+
+Goal of the game:
+-Keep the world safe/do odd jobs
+-Try not to get bankrupt
+
+What you do:
+-hire adventurers
+-lay off adventurers
+-decide which quests to take and which adventurers to send on them
+-decide on your adventurers' wages? Maybe wages should be fixed per level, what's the point if underpaying makes the adventurers quit?
+-train adventurers in different skills
+-buy equipment and quest preparation
+-pay for marketing to find more quests
+-research new training and equipment
+
+Gameplay loop:
+-Do stuff/send people on quests
+-Pass turn
+-See results
+
+Challenges:
+-adventurers can die on quests or become injured
+-the number and difficulty of available quests should rise and fall naturally
+-there is a constant tax that needs to be paid periodically
+-available quests and potential hires depend on your company approval, which depends on your successess and failures
+-Not doing some quests can lead to consequences

@@ -1,0 +1,30 @@
+What are some general things an adventurer might do?
+
+Slay monsters
+Mow lawns, gather chickens
+Mine coal
+Rescue people
+Investigate dungeons
+Treasure hunting
+Infiltrate criminal empires
+Venture into the underworld
+Venture into the jungle
+Musical performances
+Baking pies
+Retrieving magical artifacts
+Tech support
+
+Quest Generation:
+Start with a random pool of quests
+Success or failure of a quest causes a new quest to be added to the quest pool, randomly chosen from a list of followup quests
+i.e. Investigate dungeon successfully causes either magical research or trasure hunting to become available, failure causes investiage dungeon to be added back into the pool
+Every now and then, new random quests will be added to the pool and old quests destroyed
+
+Some quests may cause loops
+i.e. slay vampire (success) -> investigate old castle (success) -> research strange relic (failure) -> slay vampire
+interesting thought: scavenge wasteland (success/failure) -> scavenge wasteland
+
+Quest risks:
+Each quest has an injury rate and a death rate
+Injury rate is the probability of an injury for each adventurer on the quest, injury incurs a fixed healing cost but otherwise has no consequences
+Death rate is the probability of death for each adventurer given that the quest fails. There will be no deaths if the quest succeeds

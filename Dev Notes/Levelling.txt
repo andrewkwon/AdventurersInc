@@ -1,0 +1,3 @@
+As adventurers do quests, they gain experience and improve their skills
+Different amounts of experience give different levels
+Adventurers get paid according to their level, you decide how much different levels get paid, though if an adventurer feels they aren't being sufficiently paid they may become dissatisfied with the job and decide to quit

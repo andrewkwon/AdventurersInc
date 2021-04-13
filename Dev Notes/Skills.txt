@@ -1,0 +1,16 @@
+Every quest has a set of skills associated with it
+An adventurer with a skill set that matches the associated skills well will likely do well on the quest
+
+Skills:
+Combat - ability in fights
+Magic - knowledge of arcane arts
+Science - knowledge of the natural world
+Survival - ability to endure harsh environments
+Communication - for interacting with others
+Stealth - ability to act unnoticed
+Research - information gathering and analysis
+Arts - artistic and creative ability
+Strategy - planning
+Improvisation - ability to think on their feet
+Healing - ability to fix minor injuries
+Perseverence - ability to handle longer or more intense missions
