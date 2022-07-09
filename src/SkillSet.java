@@ -62,7 +62,7 @@ public class SkillSet {
 	
 	public String description() {
 		StringBuilder rep = new StringBuilder();
-		for(Map.Entry entry : NAMES.entrySet()) {
+		for(Map.Entry<String, Integer> entry : NAMES.entrySet()) {
 			rep.append(String.format("%20s %d%n", entry.getKey(), skills[(int) entry.getValue()]));
 		}
 		return rep.toString();

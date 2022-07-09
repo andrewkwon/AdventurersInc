@@ -90,7 +90,6 @@ public class Adventurer {
 		Arrays.fill(stats, 0);
 		stats[rng.nextInt(SkillSet.NUM_TYPES)] = 1;
 		// Guaranteed class skill gain
-		jobClass = JOB_CLASSES[rng.nextInt(JOB_CLASSES.length)];
 		switch(jobClass) {
 		case "Fighter":
 			stats[SkillSet.NAMES.get("Combat")]++;

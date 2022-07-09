@@ -103,6 +103,7 @@ public class Game {
 	// Main game loop, gets user input
 	public void gameLoop() {
 		System.out.println("---------------Welcome to Adventurer's Inc.!---------------");
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		String[] command;
 		int currWeek = week;
@@ -372,6 +373,7 @@ public class Game {
 		// Check for debt at beginning of new year
 		if(week % 52 == 0 && money < 0) {
 			System.out.println("You're in debt at the beginning of the year, you have lost the game.");
+			@SuppressWarnings("resource")
 			Scanner waitForInput = new Scanner(System.in);
 			waitForInput.nextLine();
 			running = false;
